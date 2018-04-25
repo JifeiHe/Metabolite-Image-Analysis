@@ -25,7 +25,7 @@ from keras.applications.resnet50 import ResNet50
 todate = datetime.now().strftime('%Y%m%d')
 
 def load_data(i_img):
-    data_dir = '/Users/jifeihe/Desktop/capstone/New_Dataset-0307'
+    data_dir = ''
     os.chdir(data_dir)
     img1 = np.loadtxt('./Results-NP_C3_N/Images.txt')[i_img]
     return img1
