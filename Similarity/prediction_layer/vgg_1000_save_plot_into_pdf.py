@@ -10,7 +10,7 @@ from vgg_1000_simi import simi_loop
 from matplotlib.backends.backend_pdf import PdfPages
 #for i in range(20):
 #    simi_loop(i)
-data_dir = '/Users/jifeihe/Desktop/capstone/save_results'
+data_dir = ''
 os.chdir(data_dir)    
     
 pp = PdfPages('multipage.pdf')
